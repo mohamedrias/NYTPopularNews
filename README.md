@@ -1,44 +1,61 @@
-New York Times Popular News App
+## New York Times Popular News App
 
-1. System Requirements
-
-    XCode 7.3.1
-
-    Swift 2.3
-
-    Cocoapod
-
-
-2. Functionalities
-   
-   Fetching top News
-   
-   Views News Details
+- [About](#About)
+- [Libraries Used](#libraries-used)
+- [System Requirements](#requirements)
+- [Key Components](#key-components)
+- [Installation](#installation)
+- [TODO](#todo)
 
 
-3. Key Components
-
-    3.1 Rest API Adapter
-
-    3.2 Loading Indicator
-
-    3.3 MVC Architecture
+## About
+NYT News App demonstrates how to fetch the most popular articles from New York Times REST API.
 
 
+## Libraries Used
 
-4. TODO
+- Alamofire
+- ObjectMapper
 
-    4.1 Unit testing
+## System Requirements
 
-    4.2 UI Testing
+* XCode 7.3.1
+* Swift 2.3 (Environment constraint for now - Will upgrade)
+* Cocoapods
+* Fastlane
 
-    4.3 Integrate with Snap, Gyn and Sigh
 
-    4.4 App Icon
+## Functionalities
 
-    4.5 Reachability for checking internet connectivity
+- Fetching the most popular articles
+- Displaying the article details wiht image
 
-    4.6 Migrate code to Swift 3
+
+## Key Components
+
+- Network Operation for concurrent API Requests
+- REST API Adapter for intercepting requests & responses
+- Object Mapper for JSON parsing
+- Generic loading indicator to show progress icon in any UIView
+- MVC Architecture which displays clear separation of concern
+
+
+## Installation
+
+- Run `pod install`
+- Open `'NYTPopularNews.xcworkspace'` file in XCode to run the app in simular or device.
+
+
+
+## TODO
+
+- Unit testing
+- UI Testing
+- Integrate with Snap, Gym and Sigh
+- App Icon
+- Reachability for checking internet connectivity
+- Migrate code to Swift 3
+- Fastlane setup for running the project
 
 
 
