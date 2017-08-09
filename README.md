@@ -44,18 +44,20 @@ NYT News App demonstrates how to fetch the most popular articles from New York T
 
 - Run `pod install`
 - Open `'NYTPopularNews.xcworkspace'` file in XCode to run the app in simular or device.
+- For running the tests: Use `fastlane test`
 
 
 
 ## TODO
 
-- Unit testing
+- Unit testing - Partially completed
 - UI Testing
 - Integrate with Snap, Gym and Sigh
-- App Icon
+- ~~App Icon~~
 - Reachability for checking internet connectivity
 - Migrate code to Swift 3
-- Fastlane setup for running the project
+- ~~Fastlane setup for running the project~~
+- ~~SwiftLint~~
 
 
 
