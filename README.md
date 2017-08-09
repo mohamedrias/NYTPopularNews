@@ -28,7 +28,7 @@ NYT News App demonstrates how to fetch the most popular articles from New York T
 ## Functionalities
 
 - Fetching the most popular articles
-- Displaying the article details wiht image
+- Displaying the article details with image
 
 
 ## Key Components
