@@ -22,7 +22,7 @@ import Foundation
 ///   override `cancel` method, calling `super.cancel()` and then cleaning-up
 ///   and ensuring `completeOperation()` is called.
 
-class ConcurrentNetworkOperation : NSOperation {
+class ConcurrentNetworkOperation: NSOperation {
     
     override var asynchronous: Bool {
         return true
@@ -34,7 +34,7 @@ class ConcurrentNetworkOperation : NSOperation {
             return _executing
         }
         set {
-            if (_executing != newValue) {
+            if _executing != newValue {
                 self.willChangeValueForKey("isExecuting")
                 _executing = newValue
                 self.didChangeValueForKey("isExecuting")
@@ -42,13 +42,13 @@ class ConcurrentNetworkOperation : NSOperation {
         }
     }
     
-    private var _finished: Bool = false;
+    private var _finished: Bool = false
     override var finished: Bool {
         get {
             return _finished
         }
         set {
-            if (_finished != newValue) {
+            if _finished != newValue {
                 self.willChangeValueForKey("isFinished")
                 _finished = newValue
                 self.didChangeValueForKey("isFinished")
@@ -66,7 +66,7 @@ class ConcurrentNetworkOperation : NSOperation {
     }
     
     override func start() {
-        if (cancelled) {
+        if cancelled {
             finished = true
             return
         }

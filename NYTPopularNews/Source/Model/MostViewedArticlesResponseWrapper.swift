@@ -15,16 +15,16 @@ public class MostViewedArticlesResponseWrapper: Mappable {
     var numberOfResults: String?
     var articles: [Article]?
     var message: String?
-    
+
     public init() {
-        
+
     }
-    
-    
+
+
     public required init?(_ map: Map) {
-        
+
     }
-    
+
     // Mappable
     public func mapping(map: Map) {
         status              <- map["status"]

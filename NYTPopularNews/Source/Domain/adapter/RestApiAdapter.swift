@@ -14,20 +14,20 @@ public typealias PARSER_BLOCK = ((response: NSHTTPURLResponse?, data: NSDictiona
 public typealias COMPLETION_HANDLER = ((data: NSDictionary?, error: ErrorResponse?) ->  ())
 
 public struct RestApiAdapter {
-    
+
     static var sharedInstance = RestApiAdapter()
-    
-    public static func request(method: Alamofire.Method = .GET, url : String, params : [String: AnyObject]? = nil,
+
+    public static func request(method: Alamofire.Method = .GET, url: String, params: [String: AnyObject]? = nil,
                                encoding: Alamofire.ParameterEncoding = .JSON,
-                               completionHandler: COMPLETION_HANDLER) {        
+                               completionHandler: COMPLETION_HANDLER) {
         let queue = NSOperationQueue()
         let operation = NetworkInterceptorOperation(method: method, url: url, params: params,  encoding: encoding,
                                                     completionHandler: completionHandler,
                                                     parser: RestApiAdapter.NYTParser)
         queue.addOperation(operation)
     }
-    
-    
+
+
     public static func requestImage(url: String, completionHandler: (data: NSData?, success: Bool) -> ()) {
         if let url = NSURL(string: url) {
             let request = NSURLRequest(URL: url, cachePolicy: NSURLRequestCachePolicy.ReturnCacheDataElseLoad, timeoutInterval: 24 * 60 * 60.0)
@@ -47,19 +47,19 @@ public struct RestApiAdapter {
             completionHandler(data: nil, success: false)
         }
     }
-    
+
 }
 
 
 extension RestApiAdapter {
-    
+
     /**
      Based on the API endpoint, define the response parser
-     
+
      - parameter response: NSHTTPURLResponse
      - parameter data:     NSDictionary
      - parameter error:    NSError
-     
+
      - returns: (NSDictionary, ErrorResponse)
      */
     static func NYTParser(response: NSHTTPURLResponse?, data: NSDictionary?, error: NSError?)-> (data: NSDictionary?, error: ErrorResponse?)? {
@@ -77,5 +77,5 @@ extension RestApiAdapter {
         errorResponse.message = "Sorry, we're having difficulties in processing your request. Please try again later"
         return (data, errorResponse)
     }
-    
+
 }

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		01EC459FED18D09D5BE054EE /* Pods_NYTPopularNewsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A74A03CC2F1E2819905A85B /* Pods_NYTPopularNewsTests.framework */; };
+		15055BB41F3AE3FC00B4E7D3 /* NewsHomeViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15055BB31F3AE3FC00B4E7D3 /* NewsHomeViewControllerTests.swift */; };
+		15055BB71F3AE4D200B4E7D3 /* NewsDetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15055BB61F3AE4D200B4E7D3 /* NewsDetailViewControllerTests.swift */; };
+		15055BB91F3AE61A00B4E7D3 /* NewsHomeDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15055BB81F3AE61A00B4E7D3 /* NewsHomeDelegateTests.swift */; };
 		15301CAC1F3454A800D076DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15301CAB1F3454A800D076DA /* AppDelegate.swift */; };
 		15301CB31F3454AD00D076DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15301CB11F3454AC00D076DA /* Main.storyboard */; };
 		15301CB51F3454AE00D076DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15301CB41F3454AE00D076DA /* Assets.xcassets */; };
@@ -64,6 +67,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15055BB31F3AE3FC00B4E7D3 /* NewsHomeViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsHomeViewControllerTests.swift; sourceTree = "<group>"; };
+		15055BB61F3AE4D200B4E7D3 /* NewsDetailViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDetailViewControllerTests.swift; sourceTree = "<group>"; };
+		15055BB81F3AE61A00B4E7D3 /* NewsHomeDelegateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsHomeDelegateTests.swift; sourceTree = "<group>"; };
 		15301CA81F3454A400D076DA /* NYTPopularNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYTPopularNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15301CAB1F3454A800D076DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15301CB21F3454AD00D076DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -143,6 +149,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15055BB01F3AE3E500B4E7D3 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				15055BB11F3AE3E500B4E7D3 /* views */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+		15055BB11F3AE3E500B4E7D3 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				15055BB51F3AE4BF00B4E7D3 /* detail */,
+				15055BB21F3AE3E500B4E7D3 /* home */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		15055BB21F3AE3E500B4E7D3 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				15055BB31F3AE3FC00B4E7D3 /* NewsHomeViewControllerTests.swift */,
+				15055BB81F3AE61A00B4E7D3 /* NewsHomeDelegateTests.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		15055BB51F3AE4BF00B4E7D3 /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				15055BB61F3AE4D200B4E7D3 /* NewsDetailViewControllerTests.swift */,
+			);
+			path = detail;
+			sourceTree = "<group>";
+		};
 		15301C9F1F3454A300D076DA = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +221,7 @@
 		15301CC11F3454B200D076DA /* NYTPopularNewsTests */ = {
 			isa = PBXGroup;
 			children = (
+				15055BB01F3AE3E500B4E7D3 /* tests */,
 				15301CC21F3454B300D076DA /* NYTPopularNewsTests.swift */,
 				15301CC41F3454B400D076DA /* Info.plist */,
 			);
@@ -435,6 +476,7 @@
 				15301CA61F3454A400D076DA /* Resources */,
 				C4C369F1963A70F7AC9D67A7 /* [CP] Embed Pods Frameworks */,
 				06FDA89E33FFA3B1836765AF /* [CP] Copy Pods Resources */,
+				1569D8C31F3AECBF004C0363 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -575,6 +617,20 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NYTPopularNews/Pods-NYTPopularNews-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		1569D8C31F3AECBF004C0363 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /usr/local/bin/swiftlint;
 		};
 		4C2D3ABD5DAC3B62D101D2AC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -737,6 +793,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15055BB41F3AE3FC00B4E7D3 /* NewsHomeViewControllerTests.swift in Sources */,
+				15055BB71F3AE4D200B4E7D3 /* NewsDetailViewControllerTests.swift in Sources */,
+				15055BB91F3AE61A00B4E7D3 /* NewsHomeDelegateTests.swift in Sources */,
 				15301CC31F3454B300D076DA /* NYTPopularNewsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

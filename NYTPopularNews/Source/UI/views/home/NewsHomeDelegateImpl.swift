@@ -9,39 +9,39 @@
 import Foundation
 
 
-class NewsHomeDelegateImpl: NewsHomeDelegate {
-    
+class NewsHomeDelegateImpl: NSObject, NewsHomeDelegate {
+
     let view: NewsHomeView
-    
+
     init(view: NewsHomeView) {
         self.view = view
     }
-    
+
     func start() {
         self.fetchMostViewedArticles()
     }
-    
+
     func stop() {
-        
+
     }
-    
+
     func fetchMostViewedArticles() {
         self.view.showLoading()
         NYTAPIService.getInstance().fetchPopularNews(onArticlesFetchSuccess, failureHandler: onArticlesFetchError)
     }
-    
+
     func refreshArticles() {
         self.view.showLoading()
         NYTAPIService.getInstance().fetchPopularNews(onArticlesFetchSuccess, failureHandler: onArticlesRefreshError)
     }
-    
-    
+
+
     func onArticlesFetchSuccess(articles: [Article]?) -> () {
         self.view.hideLoading()
         self.view.showMostViewedArticles(articles ?? [])
     }
-    
-    
+
+
     func onArticlesFetchError(error: ErrorResponse?) -> () {
         self.view.hideLoading()
         if let err = error {
@@ -50,8 +50,8 @@ class NewsHomeDelegateImpl: NewsHomeDelegate {
             }
         }
     }
-    
-    
+
+
     func onArticlesRefreshError(error: ErrorResponse?) -> () {
         self.view.hideLoading()
         if let err = error {
@@ -60,5 +60,5 @@ class NewsHomeDelegateImpl: NewsHomeDelegate {
             }
         }
     }
-    
+
 }

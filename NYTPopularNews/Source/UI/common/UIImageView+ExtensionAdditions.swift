@@ -10,11 +10,11 @@ import Foundation
 import UIKit
 
 extension UIImageView {
-    
-    
+
+
     /**
      Load image from URL
-     
+
      - parameter url:         String - url of the image
      - parameter placeholder: Placeholder if required
      */
@@ -45,5 +45,5 @@ extension UIImageView {
             }
         }
     }
-    
+
 }

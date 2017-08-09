@@ -45,7 +45,8 @@ class ArticlesDataSource: NSObject, UITableViewDataSource {
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let articleListItem: ArticleTableViewCell! = tableView.dequeueReusableCellWithIdentifier(ArticleTableViewCell.IDENTIFIER) as? ArticleTableViewCell
+        let articleListItem: ArticleTableViewCell! = tableView.dequeueReusableCellWithIdentifier(
+            ArticleTableViewCell.IDENTIFIER) as? ArticleTableViewCell
         articleListItem.imgView.image = UIImage(named: "placeholder")
         let article = self.articles[indexPath.row]
         articleListItem?.lblTitle?.text = article.title

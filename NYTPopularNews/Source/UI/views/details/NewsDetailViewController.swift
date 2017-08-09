@@ -24,7 +24,8 @@ class NewsDetailViewController: BaseViewController {
     override func setup() {
         self.title = self.selectedArticle.type
         self.lblArticleTitle.text = self.selectedArticle.title
-        if let largeImage = self.selectedArticle.getArticleImage(440, height: 293)?.getArticleImage(440, height: 293) where largeImage.url != "" {
+        if let largeImage = self.selectedArticle.getArticleImage(440, height: 293)?.getArticleImage(440, height: 293)
+            where largeImage.url != "" {
             self.imgLargeArticle?.loadImage(largeImage.url!)
         }
         self.lblArticleAbstract?.text = self.selectedArticle.abstract
@@ -33,7 +34,8 @@ class NewsDetailViewController: BaseViewController {
     
     class func getInstance(article: Article) -> NewsDetailViewController {
         let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
-        let viewController: NewsDetailViewController! = storyboard.instantiateViewControllerWithIdentifier("NewsDetailViewController") as? NewsDetailViewController
+        let viewController: NewsDetailViewController! = storyboard.instantiateViewControllerWithIdentifier("NewsDetailViewController")
+            as? NewsDetailViewController
         viewController.selectedArticle = article
         return viewController
     }

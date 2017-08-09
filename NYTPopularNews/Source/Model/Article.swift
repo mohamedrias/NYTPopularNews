@@ -60,6 +60,7 @@ public class Article: Mappable {
         mediaList           <- map["media"]
     }
     
+    //TODO: Rewrite to get image directly.
     func getArticleImage(width: Double = 320, height: Double = 320) -> Media? {
         if let mediaList = self.mediaList {
             let matchingMedia = mediaList.filter({ (item: Media) -> Bool in

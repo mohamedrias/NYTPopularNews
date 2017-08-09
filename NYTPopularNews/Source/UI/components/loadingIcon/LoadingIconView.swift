@@ -27,8 +27,8 @@ class LoadingSpinnerView: UIView {
         self.alpha = 0.6
         self.backgroundColor = UIColor.whiteColor()
         loadingIcon = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.WhiteLarge)
-        loadingIcon.center = CGPointMake(loadingParentView.frame.width / 2,
-                                         loadingParentView.frame.height / 2)
+        loadingIcon.center = CGPoint(x: loadingParentView.frame.width / 2,
+                                     y: loadingParentView.frame.height / 2)
         loadingIcon.color = UIColor.redColor()
         loadingIcon.tag = 6787
         self.addSubview(loadingIcon)
@@ -63,7 +63,7 @@ class LoadingSpinnerView: UIView {
 extension UIView {
     
     private struct LoadingIconsManager {
-        static var loadingIcon:LoadingSpinnerView?
+        static var loadingIcon: LoadingSpinnerView?
     }
     
     var spinnerView: LoadingSpinnerView? {
@@ -72,7 +72,8 @@ extension UIView {
                 return spinner
             }
             let spinner = LoadingSpinnerView(parentView: self)
-            objc_setAssociatedObject(self, &LoadingIconsManager.loadingIcon, spinner as LoadingSpinnerView?, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            objc_setAssociatedObject(self, &LoadingIconsManager.loadingIcon,
+                                     spinner as LoadingSpinnerView?, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN_NONATOMIC)
             return spinner
         }
     }

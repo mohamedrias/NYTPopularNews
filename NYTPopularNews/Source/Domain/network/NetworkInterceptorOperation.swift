@@ -9,7 +9,7 @@
 import Foundation
 import Alamofire
 
-class NetworkInterceptorOperation : ConcurrentNetworkOperation {
+class NetworkInterceptorOperation: ConcurrentNetworkOperation {
     
     var request: Alamofire.Request!
     let completionHandler: COMPLETION_HANDLER!
@@ -18,12 +18,12 @@ class NetworkInterceptorOperation : ConcurrentNetworkOperation {
     var manager: Alamofire.Manager!
     var method: Alamofire.Method!
     var url: String!
-    var parameters:[String: AnyObject]!
+    var parameters: [String: AnyObject]!
     var encoding: Alamofire.ParameterEncoding!
     var headers: [NSObject : AnyObject]!
     
     
-    init(method: Alamofire.Method, url : String, params : [String: AnyObject]? = nil,
+    init(method: Alamofire.Method, url: String, params: [String: AnyObject]? = nil,
          encoding: Alamofire.ParameterEncoding = .JSON,
          completionHandler: COMPLETION_HANDLER, parser: PARSER_BLOCK) {
         self.completionHandler = completionHandler

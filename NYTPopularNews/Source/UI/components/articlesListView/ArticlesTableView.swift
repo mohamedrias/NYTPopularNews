@@ -48,7 +48,8 @@ class ArticlesTableView: UIView, UITableViewDelegate {
         self.tableView.dataSource = self.dataSource
         self.tableView.delegate = self
         self.tableView.tableFooterView = UIView()
-        self.tableView.registerNib(UINib(nibName: ArticleTableViewCell.IDENTIFIER, bundle: nil), forCellReuseIdentifier: ArticleTableViewCell.IDENTIFIER)
+        self.tableView.registerNib(UINib(nibName: ArticleTableViewCell.IDENTIFIER, bundle: nil),
+                                   forCellReuseIdentifier: ArticleTableViewCell.IDENTIFIER)
         self.tableView.translatesAutoresizingMaskIntoConstraints = false
         self.addSubview(self.tableView)
         self.fillParent(self.tableView)
@@ -84,8 +85,6 @@ extension ArticlesTableView {
 /**
  *  Any container which wants to listen to the didSelectRowAtIndexPath event, need to conform this protocol
  */
-protocol ArticleTableViewDelegate {
+protocol ArticleTableViewDelegate: NSObjectProtocol {
     func selectedArticle(index: Int, article: Article)
 }
-
-

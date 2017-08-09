@@ -16,16 +16,16 @@ public class Media: Mappable {
     var copyright: String?
     var approved_for_syndication: String?
     var mediaMetadataList: [MediaMetadata]?
-    
+
     public init() {
-        
+
     }
-    
-    
+
+
     public required init?(_ map: Map) {
-        
+
     }
-    
+
     // Mappable
     public func mapping(map: Map) {
         type                        <- map["type"]
@@ -35,7 +35,7 @@ public class Media: Mappable {
         approved_for_syndication    <- map["approved_for_syndication"]
         mediaMetadataList           <- map["media-metadata"]
     }
-    
+
     public func getArticleImage(width: Double = 320, height: Double = 320) -> MediaMetadata? {
         if let mediaMetadataList = mediaMetadataList {
             let matchingMeta = mediaMetadataList.filter({ (metaItem: MediaMetadata) -> Bool in
@@ -47,5 +47,5 @@ public class Media: Mappable {
         }
         return nil
     }
-    
+
 }

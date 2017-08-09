@@ -13,9 +13,9 @@ import Foundation
  *  Base Delegate for managing the view initialization
  */
 protocol BaseDelegate {
-    
+
     func start()
-    
+
     func stop()
-    
+
 }

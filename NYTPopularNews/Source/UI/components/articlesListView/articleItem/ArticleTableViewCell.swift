@@ -10,27 +10,26 @@ import Foundation
 import UIKit
 
 class ArticleTableViewCell: UITableViewCell {
-    
-    
+
+
     //MARK:- UI Components
     @IBOutlet weak var imgView: UIImageView!
     @IBOutlet weak var lblTitle: UILabel!
-    
+
     //MARK:- Instance Variables
     static let IDENTIFIER = "ArticleTableViewCell"
-    
+
     //MARK:- Lifecyle methods
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
         self.selectionStyle = .None
     }
-    
+
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-        
+
         // Configure the view for the selected state
     }
-    
-}
 
+}

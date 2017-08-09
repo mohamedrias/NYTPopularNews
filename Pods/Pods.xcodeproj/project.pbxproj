@@ -78,17 +78,17 @@
 		026E2AD1C787400E7F99E7908EF65C25 /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISO8601DateTransform.swift; path = ObjectMapper/Transforms/ISO8601DateTransform.swift; sourceTree = "<group>"; };
 		02A0544A2338E767FA0AB0F8B01E7C17 /* Pods-NYTPopularNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NYTPopularNews.debug.xcconfig"; sourceTree = "<group>"; };
 		059D9FF11E825C5A57D343E82A94B10A /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		0A334C9469284D878222A593CDDE4575 /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A334C9469284D878222A593CDDE4575 /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ObjectMapper.framework; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B98F365E8B84F06D99DF21620626441 /* Pods-NYTPopularNewsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NYTPopularNewsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		0C761CF94BDA10DD0920844099229B2B /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		0CF1D700DD02B9EF4F935767B5C1D21F /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		0D680252069DDCC2E6BCBC68E82B5579 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		121A24563BCB7E539E1804360E74289F /* ObjectMapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ObjectMapper.modulemap; sourceTree = "<group>"; };
+		121A24563BCB7E539E1804360E74289F /* ObjectMapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ObjectMapper.modulemap; sourceTree = "<group>"; };
 		1787CA1442509036701A615F722C960E /* URLTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLTransform.swift; path = ObjectMapper/Transforms/URLTransform.swift; sourceTree = "<group>"; };
 		1E9AC4096891E4C05DE068EA9D003FCC /* Pods-NYTPopularNewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NYTPopularNewsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1EDF1E5822509FEE2DB3BF041B6CC2EA /* Pods-NYTPopularNewsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NYTPopularNewsUITests-umbrella.h"; sourceTree = "<group>"; };
 		1F1C628D3046E085CE19C893C0C8B328 /* Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Map.swift; path = ObjectMapper/Core/Map.swift; sourceTree = "<group>"; };
-		25D20E63FF079DA5A87821FD21A96F98 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D20E63FF079DA5A87821FD21A96F98 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AB9DCC40D34E8CD1EEE1C578CE2041A /* Pods-NYTPopularNews-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NYTPopularNews-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3263A9F62B1B120CFEF9C2FF3A22B76F /* Pods-NYTPopularNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NYTPopularNews.release.xcconfig"; sourceTree = "<group>"; };
 		32B2D7CA7DDDA14DF2EC882B6BB78A1A /* ObjectMapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ObjectMapper-dummy.m"; sourceTree = "<group>"; };
@@ -97,12 +97,12 @@
 		380F5262BFFED5B4EC1D3C6FDEA18A8A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AE018857EC41D37779F94F8EB7B78D3 /* Pods-NYTPopularNewsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NYTPopularNewsUITests-frameworks.sh"; sourceTree = "<group>"; };
 		3DBC9A779D14BFB2AA43512A23CCF15F /* Pods-NYTPopularNewsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NYTPopularNewsTests-frameworks.sh"; sourceTree = "<group>"; };
-		40BBF77FD4671685D9F546FD52A89ADF /* Pods_NYTPopularNewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYTPopularNewsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BBF77FD4671685D9F546FD52A89ADF /* Pods_NYTPopularNewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NYTPopularNewsTests.framework; path = "Pods-NYTPopularNewsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FF6CBECE23CA2DD20DBDE6E2A3DFAB /* Pods-NYTPopularNewsUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NYTPopularNewsUITests-resources.sh"; sourceTree = "<group>"; };
 		43C6702AB96A5A9319E45103F69A5366 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
 		4B0DAFBEBAA5B1CE39804FACD17B5420 /* Pods-NYTPopularNews-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NYTPopularNews-umbrella.h"; sourceTree = "<group>"; };
 		5056FA6AA8680486C23CB36F00BDD20A /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		524E6447FCAADE183C2879691B519E35 /* Pods_NYTPopularNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYTPopularNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		524E6447FCAADE183C2879691B519E35 /* Pods_NYTPopularNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NYTPopularNews.framework; path = "Pods-NYTPopularNews.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52655F8D0794D5155B56D18720EC4CF0 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		55AACD5B45BE0708DB86CF5E782C0B1E /* Pods-NYTPopularNewsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NYTPopularNewsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		59BFD9EBBCE8D91135B306DA03B24B95 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
@@ -115,12 +115,12 @@
 		834E993538F4586A4394F7043B884081 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		86971F1CC54EE81E11384D0FF6470446 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		89E25847BACA0FAFBCB1245328C42B4B /* Pods-NYTPopularNews-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NYTPopularNews-resources.sh"; sourceTree = "<group>"; };
-		92E9E075C9F14640DC2BE4DCCE3F175B /* Pods_NYTPopularNewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYTPopularNewsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		92E9E075C9F14640DC2BE4DCCE3F175B /* Pods_NYTPopularNewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NYTPopularNewsUITests.framework; path = "Pods-NYTPopularNewsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		982B481D69445BE1C75CD774D2D09F1C /* NSDecimalNumberTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSDecimalNumberTransform.swift; path = ObjectMapper/Transforms/NSDecimalNumberTransform.swift; sourceTree = "<group>"; };
 		9892B91DF47B8DC8C531FE05DD0692FE /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		99EDBAC1F7C1998E484DFE8B44FCB86F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BDB3F257F460999987E9E4A2A30AB49 /* Pods-NYTPopularNewsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NYTPopularNewsTests.modulemap"; sourceTree = "<group>"; };
+		9BDB3F257F460999987E9E4A2A30AB49 /* Pods-NYTPopularNewsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NYTPopularNewsTests.modulemap"; sourceTree = "<group>"; };
 		9F7DB9B8193537130A7F16C6BE89AB2E /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		AC6625822F9E3F2AA6CBF5058C70B143 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		AF49BC3E912FF9CFCD97E3860965F7C1 /* ObjectMapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjectMapper-umbrella.h"; sourceTree = "<group>"; };
@@ -148,13 +148,13 @@
 		E2006D8D8E8AAD7C147B66D0B1720258 /* Pods-NYTPopularNews-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NYTPopularNews-acknowledgements.plist"; sourceTree = "<group>"; };
 		E3D23D5DE6E896DE370C4A14ECDA405D /* Pods-NYTPopularNewsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NYTPopularNewsUITests-dummy.m"; sourceTree = "<group>"; };
 		F0DDDFDC282406C102BE1DA1E0D98EBB /* ToJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToJSON.swift; path = ObjectMapper/Core/ToJSON.swift; sourceTree = "<group>"; };
-		F1C7EE14C615A3D2576DE51418E7790D /* Pods-NYTPopularNewsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NYTPopularNewsUITests.modulemap"; sourceTree = "<group>"; };
-		F24A3B05F6DF3EC3699B8F576E3F1FE4 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		F1C7EE14C615A3D2576DE51418E7790D /* Pods-NYTPopularNewsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NYTPopularNewsUITests.modulemap"; sourceTree = "<group>"; };
+		F24A3B05F6DF3EC3699B8F576E3F1FE4 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		F74DD78F3142D5C9EF7C743A3AE4ED36 /* TransformOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformOf.swift; path = ObjectMapper/Transforms/TransformOf.swift; sourceTree = "<group>"; };
 		FB05A84106EF821DFB2C3CDABBBB48D6 /* FromJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FromJSON.swift; path = ObjectMapper/Core/FromJSON.swift; sourceTree = "<group>"; };
 		FB34890EA3ED3B7892E33DC271078D87 /* Pods-NYTPopularNewsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NYTPopularNewsTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FC935D6AC2D398DEB519E7E6182935D2 /* DateFormatterTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFormatterTransform.swift; path = ObjectMapper/Transforms/DateFormatterTransform.swift; sourceTree = "<group>"; };
-		FE85C9D8E011B27FC3A864CECC3443E3 /* Pods-NYTPopularNews.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NYTPopularNews.modulemap"; sourceTree = "<group>"; };
+		FE85C9D8E011B27FC3A864CECC3443E3 /* Pods-NYTPopularNews.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NYTPopularNews.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +221,7 @@
 				1787CA1442509036701A615F722C960E /* URLTransform.swift */,
 				D91F620318407A42D3C2C7B6138948A9 /* Support Files */,
 			);
+			name = ObjectMapper;
 			path = ObjectMapper;
 			sourceTree = "<group>";
 		};
@@ -329,6 +330,7 @@
 				C927C316C5FC822387893CE5219C87D7 /* Validation.swift */,
 				338BCF733E7C2D439331E7DCCDA44229 /* Support Files */,
 			);
+			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -643,50 +645,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1190DD6A6A84B61A900A9DE9CEE7F480 /* Debug */ = {
+		0FAE20890D4B7923A2A9121FF24808E5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02A0544A2338E767FA0AB0F8B01E7C17 /* Pods-NYTPopularNews.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NYTPopularNews/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NYTPopularNews/Pods-NYTPopularNews.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_NYTPopularNews;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		210834F864D01B4DEEBD74FC2228E22E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B98F365E8B84F06D99DF21620626441 /* Pods-NYTPopularNewsUITests.release.xcconfig */;
+			baseConfigurationReference = D405AF71E8F44489992C4E8D6A0BB2D9 /* Pods-NYTPopularNewsTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -698,22 +659,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NYTPopularNewsUITests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-NYTPopularNewsTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NYTPopularNewsUITests/Pods-NYTPopularNewsUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-NYTPopularNewsTests/Pods-NYTPopularNewsTests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_NYTPopularNewsUITests;
+				PRODUCT_NAME = Pods_NYTPopularNewsTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -770,9 +731,87 @@
 			};
 			name = Debug;
 		};
-		4FB6F5DFFCB34626B241D48C38F05D2A /* Debug */ = {
+		63DEB83E85256975ACF08D1B85EE6C9B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F36B5753EF7A8F3BA4314759818E766 /* ObjectMapper.xcconfig */;
+			baseConfigurationReference = 0B98F365E8B84F06D99DF21620626441 /* Pods-NYTPopularNewsUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NYTPopularNewsUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NYTPopularNewsUITests/Pods-NYTPopularNewsUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NYTPopularNewsUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		68A6AD05822D7138CB5D099CE8842F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3263A9F62B1B120CFEF9C2FF3A22B76F /* Pods-NYTPopularNews.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NYTPopularNews/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NYTPopularNews/Pods-NYTPopularNews.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NYTPopularNews;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		777C6ADA45830AB0FA3C85898AFC2DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A0544A2338E767FA0AB0F8B01E7C17 /* Pods-NYTPopularNews.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -787,15 +826,19 @@
 				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ObjectMapper/ObjectMapper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ObjectMapper/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-NYTPopularNews/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ObjectMapper/ObjectMapper.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NYTPopularNews/Pods-NYTPopularNews.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = ObjectMapper;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NYTPopularNews;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -807,9 +850,9 @@
 			};
 			name = Debug;
 		};
-		55AF24481A30B0586181326ECD81ABE4 /* Release */ = {
+		7DCB7E81221EA06A6C9B59F3FF352B82 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D405AF71E8F44489992C4E8D6A0BB2D9 /* Pods-NYTPopularNewsTests.release.xcconfig */;
+			baseConfigurationReference = 7F36B5753EF7A8F3BA4314759818E766 /* ObjectMapper.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -821,33 +864,31 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NYTPopularNewsTests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ObjectMapper/ObjectMapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ObjectMapper/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NYTPopularNewsTests/Pods-NYTPopularNewsTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/ObjectMapper/ObjectMapper.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_NYTPopularNewsTests;
+				PRODUCT_NAME = ObjectMapper;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		710F72F917246434042C92A268D13226 /* Debug */ = {
+		8DB51D5712AD2522CF511B0DEB7DB3E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E9AC4096891E4C05DE068EA9D003FCC /* Pods-NYTPopularNewsTests.debug.xcconfig */;
+			baseConfigurationReference = CEF93C648FDB5D972D8459E1C831EBDB /* Pods-NYTPopularNewsUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -859,22 +900,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NYTPopularNewsTests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-NYTPopularNewsUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NYTPopularNewsTests/Pods-NYTPopularNewsTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-NYTPopularNewsUITests/Pods-NYTPopularNewsUITests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_NYTPopularNewsTests;
+				PRODUCT_NAME = Pods_NYTPopularNewsUITests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -883,7 +924,7 @@
 			};
 			name = Debug;
 		};
-		9DB3692F8EEDE85BCC7FDF6327D23DD7 /* Release */ = {
+		8F34405047728450F2F130BC27792A03 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9892B91DF47B8DC8C531FE05DD0692FE /* Alamofire.xcconfig */;
 			buildSettings = {
@@ -919,45 +960,42 @@
 			};
 			name = Release;
 		};
-		B3992BB37C8E6FFBE6E9CE821223D087 /* Release */ = {
+		AEA28D84C5FCC23E6724E32A307833F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3263A9F62B1B120CFEF9C2FF3A22B76F /* Pods-NYTPopularNews.release.xcconfig */;
+			baseConfigurationReference = 9892B91DF47B8DC8C531FE05DD0692FE /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NYTPopularNews/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NYTPopularNews/Pods-NYTPopularNews.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_NYTPopularNews;
+				PRODUCT_NAME = Alamofire;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1003,9 +1041,9 @@
 			};
 			name = Release;
 		};
-		CC39BBB023C8BC7FFB18D720F8076CB5 /* Debug */ = {
+		E8609A59D06DB321EFA02F218073F39C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9892B91DF47B8DC8C531FE05DD0692FE /* Alamofire.xcconfig */;
+			baseConfigurationReference = 1E9AC4096891E4C05DE068EA9D003FCC /* Pods-NYTPopularNewsTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1020,56 +1058,19 @@
 				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D2910F01C0F615153D4B6B063B53302D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEF93C648FDB5D972D8459E1C831EBDB /* Pods-NYTPopularNewsUITests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NYTPopularNewsUITests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-NYTPopularNewsTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NYTPopularNewsUITests/Pods-NYTPopularNewsUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-NYTPopularNewsTests/Pods-NYTPopularNewsTests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_NYTPopularNewsUITests;
+				PRODUCT_NAME = Pods_NYTPopularNewsTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1078,7 +1079,7 @@
 			};
 			name = Debug;
 		};
-		D4835244EC2D6EED0E2999609908D8EE /* Release */ = {
+		F3103C4DFAAE9488E662DC33ACF5C8D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7F36B5753EF7A8F3BA4314759818E766 /* ObjectMapper.xcconfig */;
 			buildSettings = {
@@ -1087,7 +1088,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1101,18 +1102,19 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ObjectMapper/ObjectMapper.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = ObjectMapper;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1129,8 +1131,8 @@
 		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC39BBB023C8BC7FFB18D720F8076CB5 /* Debug */,
-				9DB3692F8EEDE85BCC7FDF6327D23DD7 /* Release */,
+				AEA28D84C5FCC23E6724E32A307833F8 /* Debug */,
+				8F34405047728450F2F130BC27792A03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1138,8 +1140,8 @@
 		537C04DB7A588FE0877C6920EA80D886 /* Build configuration list for PBXNativeTarget "Pods-NYTPopularNewsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				710F72F917246434042C92A268D13226 /* Debug */,
-				55AF24481A30B0586181326ECD81ABE4 /* Release */,
+				E8609A59D06DB321EFA02F218073F39C /* Debug */,
+				0FAE20890D4B7923A2A9121FF24808E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1147,8 +1149,8 @@
 		AD948845BDB8E10D24514B04A9853EA5 /* Build configuration list for PBXNativeTarget "Pods-NYTPopularNews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1190DD6A6A84B61A900A9DE9CEE7F480 /* Debug */,
-				B3992BB37C8E6FFBE6E9CE821223D087 /* Release */,
+				777C6ADA45830AB0FA3C85898AFC2DB5 /* Debug */,
+				68A6AD05822D7138CB5D099CE8842F6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1156,8 +1158,8 @@
 		B3DF436F513A39D5C744CB1405B6EFC5 /* Build configuration list for PBXNativeTarget "ObjectMapper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4FB6F5DFFCB34626B241D48C38F05D2A /* Debug */,
-				D4835244EC2D6EED0E2999609908D8EE /* Release */,
+				F3103C4DFAAE9488E662DC33ACF5C8D1 /* Debug */,
+				7DCB7E81221EA06A6C9B59F3FF352B82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1165,8 +1167,8 @@
 		FC7D0BFBD05E4E98082CBCA52D33C506 /* Build configuration list for PBXNativeTarget "Pods-NYTPopularNewsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2910F01C0F615153D4B6B063B53302D /* Debug */,
-				210834F864D01B4DEEBD74FC2228E22E /* Release */,
+				8DB51D5712AD2522CF511B0DEB7DB3E4 /* Debug */,
+				63DEB83E85256975ACF08D1B85EE6C9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

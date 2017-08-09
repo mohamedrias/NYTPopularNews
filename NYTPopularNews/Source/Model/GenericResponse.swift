@@ -12,16 +12,16 @@ import ObjectMapper
 public class GenericResponse: Mappable {
     var status: String?
     var message: String?
-    
+
     public init() {
-        
+
     }
-    
-    
+
+
     public required init?(_ map: Map) {
-        
+
     }
-    
+
     // Mappable
     public func mapping(map: Map) {
         status            <- map["status"]
